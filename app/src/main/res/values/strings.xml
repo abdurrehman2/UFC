@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Placemark</string>
+    <string name="app_name">UFC</string>
+    <string name="button_addUfc">Add FIGHTER </string>
+    <string name="button_editUfc">Update UFC FIGHTER</string>
+    <string name="hint_ufcTitle">UFC Fighter Name</string>
+    <string name="menu_addUfc">UFC Menu</string>
+    <string name="hint_ufcDescription">UFC Enter Fighter Description</string>
+    <string name="hint_ufcName">Enter Fighter Division</string>
+    <string name="hint_ufcAge">Enter Fighter Age</string>
+    <string name="hint_ufcWeight">Enter Fighter Weight</string>
+    <string name="hint_ufcRecord">Enter Fighter Record</string>
+    <string name="menu_cancelUfc">Cancel</string>
+    <string name="menu_deleteUfc">Delete</string>
+    <string name="button_addImage"> Add Image </string>
+    <string name="select_ufc_image"> Select Image </string>
+    <string name="button_location">Setting Location</string>
+    <string name="title_activity_u_f_c_maps">Map</string>
 </resources>

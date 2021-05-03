@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:elevation="24dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+
+
+        <TextView
+            android:id="@+id/ufcTitleC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/descriptionC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ufcTitleC"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:id="@+id/ufcNameC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/descriptionC"
+            android:layout_marginTop="0dp" />
+        <TextView
+            android:id="@+id/ufcAgeC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ufcNameC"
+            android:layout_marginTop="0dp" />
+        <TextView
+            android:id="@+id/ufcWeightC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ufcAgeC"
+            android:layout_marginTop="0dp" />
+        <TextView
+            android:id="@+id/ufcRecordC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ufcWeightC"
+            android:layout_marginTop="0dp" />
+
+        <ImageView
+            android:id="@+id/imageViewUfc"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_toRightOf="@id/ufcTitleC"
+            android:layout_alignParentRight="true"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
